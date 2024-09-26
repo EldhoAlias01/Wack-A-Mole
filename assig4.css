@@ -1,0 +1,35 @@
+/** 
+Author: Eldho Alias, 000924074
+**/
+
+/* * {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+} */
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: azure;
+}
+
+main{
+    text-align: center;
+    margin-right: 40px;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+footer{
+    color: azure;
+}
+
+
+p {
+    text-align: center;
+    color: azure;
+    padding: 10px;
+}
