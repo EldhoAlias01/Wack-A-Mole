@@ -6,9 +6,9 @@ let highScore = localStorage.getItem("highScore") || 0; // Retrieve high score f
 const moleSpeed = 1400; // Time for the mole to appear
 let timer;
 let array = [];
-
 // Function to create holes
 function drawHoles() {
+
     for (let i = 0; i < 4; i++) {
         for (let j = 0; j < 4; j++) {
             const hole = document.getElementById("circle1").cloneNode(true);
@@ -74,6 +74,8 @@ function endGame() {
 
 // Initialize game
 window.onload = () => {
+
+    
     drawHoles();
     startGame();
     setTimeout(endGame, 20000); // Game will end in 20 seconds
